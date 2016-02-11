@@ -6,7 +6,12 @@ import (
 	"time"
 )
 
-const fileName = "zombie.log"
+var fileName = "errors.log"
+
+//Init cambia el nombre del archivo que registra los errores
+func Init(file string) {
+	fileName = file
+}
 
 //RegistrarError se encarga de escribir en el archivo y en caso que sea un error fatal mata el proceso
 func RegistrarError(err Throwable) {
