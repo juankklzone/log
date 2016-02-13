@@ -23,6 +23,7 @@ const (
 
 const (
 	CodeServer          Code = 500
+	CodeConflict        Code = 409
 	CodeNotFound        Code = 404
 	CodePaymentDeclined Code = 402
 	CodeMailNotSend     Code = 202
