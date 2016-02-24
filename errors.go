@@ -26,7 +26,7 @@ const (
 	CodeConflict        Code = 409
 	CodeNotFound        Code = 404
 	CodePaymentDeclined Code = 402
-	CodeMailNotSend     Code = 202
+	CodeMailNotSent     Code = 202
 	CodeNoError         Code = 0
 )
 
